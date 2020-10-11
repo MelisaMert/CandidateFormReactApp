@@ -1,0 +1,31 @@
+App Structure
+
+.structure
+
+.....actions
+api.js (handle all http request)
+dCandidate.js(Redux actions & action creators)
+store.js (configure redux store)
+
+.....components
+DCandidateForm.js(form operations) - child
+dCandidates.js (list of records)  - parent
+useForm.js(handles common from operations)
+
+......reducers
+dCandidate.js
+index.js  (in order to combine reducer)
+
+
+..App.js
+..index.js
+..index.css
+
+redux, react-redux , redux-thunk
+
+action  - crate, update, delete, etc, data
+reducers
+store
+
+
+comp -> dispatch(action) -> reducer -> compnt
